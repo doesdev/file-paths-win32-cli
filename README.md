@@ -13,7 +13,7 @@ $ npm install --global file-paths-win32-cli
 ```sh
 fp --help
 
-fp some-file.txt some-other-file.exe --dirs "C:\some\path" "C:\some\other\path"
+fp some-file.txt some-other-file.exe --dir "C:\some\path"
 ```
 
 ## related
