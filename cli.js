@@ -13,16 +13,16 @@ const cli = meow(`
 
   Options
     --full, -f  Perform recursive search over all drives
-    --dirs, -d  <directories>... Directories to search
+    --dir, -d  <directory> Directory to search
 
   Examples
-    $ fp some-file.txt some-other-file.exe --dirs "C:\\path" "C:\\other\\path"
-    "C:\\other\\path\\some-file.exe"
-    "C:\\path\\subdir\\some-other-file.exe"
+    $ fp some-file.txt some-other-file.exe --dir "C:\\some\\path"
+    "C:\\some\\path\\some-file.exe"
+    "C:\\some\\path\\subdir\\some-other-file.exe"
 `, {
   alias: {
     f: 'full',
-    d: 'dirs'
+    d: 'dir'
   },
   boolean: ['f', 'full'],
   default: {f: false, full: false}

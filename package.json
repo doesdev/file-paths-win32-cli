@@ -1,6 +1,6 @@
 {
   "name": "file-paths-win32-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find file paths from the command line by their name",
   "main": "cli.js",
   "bin": {
