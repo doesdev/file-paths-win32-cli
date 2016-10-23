@@ -1,0 +1,36 @@
+{
+  "name": "file-paths-win32-cli",
+  "version": "1.0.0",
+  "description": "Find file paths from the command line by their name",
+  "main": "cli.js",
+  "bin": {
+    "filepaths": "cli.js",
+    "fp": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doesdev/file-paths-win32-cli.git"
+  },
+  "keywords": [
+    "find",
+    "file",
+    "path",
+    "by",
+    "file",
+    "name",
+    "windows"
+  ],
+  "author": "Andrew Carpenter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doesdev/file-paths-win32-cli/issues"
+  },
+  "homepage": "https://github.com/doesdev/file-paths-win32-cli#readme",
+  "dependencies": {
+    "file-paths-win32": "^1.0.0",
+    "meow": "^3.7.0"
+  }
+}
